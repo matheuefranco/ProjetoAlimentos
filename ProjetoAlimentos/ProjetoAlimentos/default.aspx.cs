@@ -22,6 +22,12 @@ namespace ProjetoAlimentos
                 Session["login"] = txtUser.Text;
                 Response.Redirect("dashboard.aspx");
             }// fim if
+            else
+            {
+                string title = "Acesso Negado";
+                string body = "Usuário ou senha incorretos :(";
+                ClientScript.RegisterStartupScript(this.GetType(), "Popup", "ShowPopup('" + title + "', '" + body + "');", true);
+            }
 
         }
     }
