@@ -10,34 +10,43 @@
 namespace ProjetoAlimentos {
     
     
-    public partial class _default {
+    public partial class produtos {
         
         /// <summary>
-        /// txtUser control.
+        /// txtDescricao control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUser;
+        protected global::System.Web.UI.WebControls.TextBox txtDescricao;
         
         /// <summary>
-        /// txtsenha control.
+        /// ddlTipo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtsenha;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipo;
         
         /// <summary>
-        /// btnAcessa control.
+        /// txtDensidade control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAcessa;
+        protected global::System.Web.UI.WebControls.TextBox txtDensidade;
+        
+        /// <summary>
+        /// btnCadastra control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCadastra;
         
         /// <summary>
         /// lblmsg control.

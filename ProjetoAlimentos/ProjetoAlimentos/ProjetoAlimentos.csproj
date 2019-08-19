@@ -88,9 +88,14 @@
     <Content Include="default.aspx" />
     <Content Include="estilo.css" />
     <Content Include="Global.asax" />
+    <Content Include="img\avatar.png" />
+    <Content Include="img\product_add.png" />
+    <Content Include="img\vidraria-icon.png" />
+    <Content Include="produtos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Biblioteca.cs" />
     <Compile Include="ConectaBanco.cs" />
     <Compile Include="dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
@@ -115,6 +120,13 @@
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="produtos.aspx.cs">
+      <DependentUpon>produtos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="produtos.aspx.designer.cs">
+      <DependentUpon>produtos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

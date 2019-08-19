@@ -11,10 +11,11 @@ namespace ProjetoAlimentos
     public class ConectaBanco
     {
         public string mensagem;
+        MySqlConnection conexao = new MySqlConnection("server=localhost;user id=root;password=compServer;database=sisalimentos");
+
         public bool verifica(string user, string pass)
         {
-            //string senhaHash = Biblioteca.makeHash(pass);
-            MySqlConnection conexao = new MySqlConnection("server=localhost;user id=root;password=compServer;database=sisalimentos");
+            string senhaHash = Biblioteca.makeHash(pass);
             MySqlCommand cmd = new MySqlCommand("consultaSenha", conexao);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("usuario", user);
@@ -41,5 +42,32 @@ namespace ProjetoAlimentos
                 conexao.Close();
             }
         }
+        //------------------ fim verifica ---------------------
+        public bool insereProduto(string descricao, int tipo, double densidade)
+        {
+            MySqlCommand cmd = new MySqlCommand("insere_produto", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("descricao", descricao);
+            cmd.Parameters.AddWithValue("tipo", tipo);
+            cmd.Parameters.AddWithValue("densidade", densidade);
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery();
+                //mensagem = "Dados inseridos com sucesso";
+                return true;
+            }
+            catch (MySqlException erro)
+            {
+                mensagem = "Erro Mysql " + erro.Message;
+                return false;
+
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
+        //--------- fim insere_produto ---------------
     }
 }

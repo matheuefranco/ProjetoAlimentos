@@ -54,3 +54,10 @@ C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csproj.CopyComplete
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.dll
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.pdb
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\BouncyCastle.Crypto.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Google.Protobuf.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\MySql.Data.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Renci.SshNet.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Google.Protobuf.xml
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\MySql.Data.xml
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Renci.SshNet.xml

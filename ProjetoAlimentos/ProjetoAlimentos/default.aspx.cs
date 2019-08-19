@@ -16,14 +16,15 @@ namespace ProjetoAlimentos
 
         protected void btnAcessa_Click(object sender, EventArgs e)
         {
-            if(txtUser.Text == "adm" &&
-                txtsenha.Text == "sinfo")
+            ConectaBanco con = new ConectaBanco();
+            if (con.verifica(txtUser.Text, txtsenha.Text)==true)
             {
                 Session["login"] = txtUser.Text;
                 Response.Redirect("dashboard.aspx");
             }// fim if
             else
             {
+                lblmsg.Text = con.mensagem;
                 string title = "Acesso Negado";
                 string body = "Usuário ou senha incorretos :(";
                 ClientScript.RegisterStartupScript(this.GetType(), "Popup", "ShowPopup('" + title + "', '" + body + "');", true);

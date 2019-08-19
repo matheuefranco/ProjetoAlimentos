@@ -16,6 +16,7 @@
         <br />
         <asp:Button ID="btnAcessa" CssClass="btn btn-success" runat="server" Text="Acessar" OnClick="btnAcessa_Click" />
         <br />
+        <asp:Label ID="lblmsg" runat="server" ForeColor="#FF3300"></asp:Label>
         <br />
 
     </div>
