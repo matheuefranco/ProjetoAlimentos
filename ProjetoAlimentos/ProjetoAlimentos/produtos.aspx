@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1 class="col-form-label-lg"> Cadastro de Produtos </h1>
 <div class="form-group">
 <label for="txtDescricao">Descrição</label>
 <asp:TextBox ID="txtDescricao" CssClass="form-control" runat="server"></asp:TextBox>
@@ -18,7 +19,7 @@
     <label for="txtDensidade">Densidade</label>
     <asp:TextBox ID="txtDensidade" CssClass="form-control" runat="server"></asp:TextBox>
  </div>
-    <asp:Button ID="btnCadastra" CssClass="btn btn-primary" runat="server" Text="Cadastrar" OnClick="btnCadastra_Click" />
+    <asp:Button ID="btnCadastra" CssClass="btn btn-primary" runat="server" Text="Cadastrar" OnClick="btnCadastra_Click" Width="126px" />
     <br />
     <asp:Label ID="lblmsg" runat="server" ForeColor="Red"></asp:Label>
 </asp:Content>

@@ -33,6 +33,32 @@
                 Todos direitos reservados - Sistemas de Informação - IFSULDEMINAS - Campus Machado
             </footer>
         </div>
+ <!-- Modal Popup -->
+<div id="MyPopup" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title"> </h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Popup -->
+
+<script type="text/javascript">
+    function ShowPopup(title, body) {
+        $("#MyPopup .modal-title").html(title);
+        $("#MyPopup .modal-body").html(body);
+        $("#MyPopup").modal("show");
+    }
+</script>
     </form>
+   
 </body>
 </html>
