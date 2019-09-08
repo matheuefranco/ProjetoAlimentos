@@ -11,7 +11,8 @@ namespace ProjetoAlimentos
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["login"] == null)
+                Response.Redirect("default.aspx");
         }
 
         protected void btnCadastra_Click(object sender, EventArgs e)

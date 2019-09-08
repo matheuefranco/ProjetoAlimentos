@@ -69,5 +69,29 @@ namespace ProjetoAlimentos
             }
         }
         //--------- fim insere_produto ---------------
+        public DataSet listaProdutos()
+        {
+            MySqlCommand cmd = new MySqlCommand("lista_produtos", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            try
+            {
+                conexao.Open();//abrindo a conexão;
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataSet ds = new DataSet();// tabela virtual
+                da.Fill(ds); //passando os valores consultados para o DataSet 
+                return ds;
+
+            }
+            catch (MySqlException er)
+            {
+                mensagem = "Erro" + er.Message;
+                return null;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+        }
     }
 }

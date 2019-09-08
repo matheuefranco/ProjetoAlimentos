@@ -5,7 +5,7 @@
     <div class="container" style="text-align:center">
      <asp:Label ID="lblmsg" runat="server" Text=""></asp:Label>
         <br />
+        <asp:ImageButton ID="btnProdutos" runat="server" ImageUrl="~/img/product_add.png" OnClick="btnProdutos_Click" />
         <br />
-        <asp:Image ID="Image1" runat="server" ImageUrl="~/img/product_add.png" />
    </div>
 </asp:Content>

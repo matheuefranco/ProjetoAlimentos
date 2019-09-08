@@ -17,5 +17,10 @@ namespace ProjetoAlimentos
                 lblmsg.Text = "Seja bem vindo " + 
                               Session["login"].ToString();
         }
+
+        protected void btnProdutos_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("produtos.aspx");
+        }
     }
 }

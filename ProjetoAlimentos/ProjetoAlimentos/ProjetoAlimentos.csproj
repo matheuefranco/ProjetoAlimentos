@@ -91,6 +91,7 @@
     <Content Include="img\avatar.png" />
     <Content Include="img\product_add.png" />
     <Content Include="img\vidraria-icon.png" />
+    <Content Include="itens.aspx" />
     <Content Include="produtos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -113,6 +114,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="itens.aspx.cs">
+      <DependentUpon>itens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itens.aspx.designer.cs">
+      <DependentUpon>itens.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
