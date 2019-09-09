@@ -84,6 +84,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="consumo.aspx" />
     <Content Include="dashboard.aspx" />
     <Content Include="default.aspx" />
     <Content Include="estilo.css" />
@@ -98,6 +99,13 @@
   <ItemGroup>
     <Compile Include="Biblioteca.cs" />
     <Compile Include="ConectaBanco.cs" />
+    <Compile Include="consumo.aspx.cs">
+      <DependentUpon>consumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consumo.aspx.designer.cs">
+      <DependentUpon>consumo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

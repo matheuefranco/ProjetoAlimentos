@@ -93,5 +93,32 @@ namespace ProjetoAlimentos
             }
 
         }
+        //----------- fim listaProdutos -----------------
+        public bool insereItens(string descricao, double massa,int idproduto)
+        {
+            MySqlCommand cmd = new MySqlCommand("insere_itens", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("descricao_itens", descricao);
+            cmd.Parameters.AddWithValue("massa", massa);
+            cmd.Parameters.AddWithValue("idproduto", idproduto);
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery();
+                //mensagem = "Dados inseridos com sucesso";
+                return true;
+            }
+            catch (MySqlException erro)
+            {
+                mensagem = "Erro Mysql " + erro.Message;
+                return false;
+
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
+        //--------- fim insere_itens ---------------
     }
 }

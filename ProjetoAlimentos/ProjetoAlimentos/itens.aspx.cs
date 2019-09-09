@@ -25,7 +25,18 @@ namespace ProjetoAlimentos
 
         protected void btnCadastra_Click(object sender, EventArgs e)
         {
-
+            ConectaBanco con = new ConectaBanco();
+            bool flag = con.insereItens(txtDesc.Text,
+                            Convert.ToDouble(txtMassa.Text),
+                            Convert.ToInt32(ddlProd.SelectedValue));
+            if (flag == true)
+            {
+                string title = "Cadastro";
+                string body = "Item cadastrado com sucesso :)";
+                ClientScript.RegisterStartupScript(this.GetType(), "Popup", "ShowPopup('" + title + "', '" + body + "');", true);
+            }
+            else
+                lblmsg.Text = con.mensagem;
         }
     }
 }
