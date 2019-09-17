@@ -120,5 +120,31 @@ namespace ProjetoAlimentos
             }
         }
         //--------- fim insere_itens ---------------
+        public DataSet listaItensIdProd(int idprod)
+        {
+            MySqlCommand cmd = new MySqlCommand("lista_itens_idprod", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("id_prod", idprod);
+            try
+            {
+                conexao.Open();//abrindo a conexão;
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataSet ds = new DataSet();// tabela virtual
+                da.Fill(ds); //passando os valores consultados para o DataSet 
+                return ds;
+
+            }
+            catch (MySqlException er)
+            {
+                mensagem = "Erro" + er.Message;
+                return null;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+        }
+        //----------- fim listaProdutos -----------------
     }
 }

@@ -6,11 +6,12 @@
 <br />
  <div class="form-group">
    <label for="ddlProd">Produto </label>
-    <asp:DropDownList ID="ddlProd" CssClass="form-control" runat="server">
+    <asp:DropDownList ID="ddlProd" CssClass="form-control" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlProd_SelectedIndexChanged">
     </asp:DropDownList>
-   <label for="ddlItem">Item </label>
-    <asp:DropDownList ID="ddlItem" CssClass="form-control" runat="server">
-    </asp:DropDownList>
+   <label for="lstItens">Item </label>
+     <br />
+     <asp:ListBox ID="lstItens" CssClass="form-control" runat="server"></asp:ListBox>
+     <br />
      <label for="txtDesc">Descrição </label>
      <asp:TextBox ID="txtDesc" CssClass="form-control" runat="server"></asp:TextBox>
     
