@@ -146,5 +146,32 @@ namespace ProjetoAlimentos
 
         }
         //----------- fim listaProdutos -----------------
+        public bool insereConsumo(int iditem, string descricao, 
+                                  DateTime data, double qtd)
+        {
+            MySqlCommand cmd = new MySqlCommand("insere_consumo", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("desc_consumo", descricao);
+            cmd.Parameters.AddWithValue("qtd", qtd);
+            cmd.Parameters.AddWithValue("iditem", iditem);
+            cmd.Parameters.AddWithValue("data", data.ToString("yyyy-MM-dd"));
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery();
+                //mensagem = "Dados inseridos com sucesso";
+                return true;
+            }
+            catch (MySqlException erro)
+            {
+                mensagem = "Erro Mysql " + erro.Message;
+                return false;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
+        //--------- fim insere_itens ---------------
     }
 }

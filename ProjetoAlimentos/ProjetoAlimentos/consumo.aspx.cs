@@ -37,7 +37,22 @@ namespace ProjetoAlimentos
 
         protected void btnCadastra_Click(object sender, EventArgs e)
         {
+            ConectaBanco con = new ConectaBanco();
+           bool flag= con.insereConsumo(Convert.ToInt32(lstItens.SelectedValue), 
+                              txtDesc.Text,
+                              Convert.ToDateTime(txtData.Text), 
+                              Convert.ToDouble(txtMassa.Text));
+            if (flag == true)
+            {
+                string title = "Cadastro";
+                string body = "Consumo cadastrado com sucesso :)";
+                ClientScript.RegisterStartupScript(this.GetType(), "Popup", "ShowPopup('" + title + "', '" + body + "');", true);
 
+            }
+            
+            // fim if
+            else
+                lblmsg.Text = con.mensagem;
         }
 
         protected void ddlProd_SelectedIndexChanged(object sender, EventArgs e)
