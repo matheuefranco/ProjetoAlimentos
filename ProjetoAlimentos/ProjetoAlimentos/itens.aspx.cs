@@ -21,6 +21,9 @@ namespace ProjetoAlimentos
                 ddlProd.DataBind(); // popula o dropdownList
                 lblmsg.Text = con.mensagem;
             }// fim if
+
+            if (!Page.IsPostBack)
+                ViewState["PageAnterior"] = Request.UrlReferrer.ToString();
         }
 
         protected void btnCadastra_Click(object sender, EventArgs e)
@@ -37,6 +40,16 @@ namespace ProjetoAlimentos
             }
             else
                 lblmsg.Text = con.mensagem;
+        }
+
+        protected void btnVoltar_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect(ViewState["PageAnterior"].ToString());
+        }
+
+        protected void btnConsumo_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("consumo.aspx");
         }
     }
 }

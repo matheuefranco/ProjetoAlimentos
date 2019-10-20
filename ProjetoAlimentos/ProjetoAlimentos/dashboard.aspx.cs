@@ -22,5 +22,15 @@ namespace ProjetoAlimentos
         {
             Response.Redirect("produtos.aspx");
         }
+
+        protected void btnItens_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("itens.aspx");
+        }
+
+        protected void btnConsumo_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("consumo.aspx");
+        }
     }
 }

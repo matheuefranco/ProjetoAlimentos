@@ -20,6 +20,15 @@
     <asp:TextBox ID="txtDensidade" CssClass="form-control" runat="server"></asp:TextBox>
  </div>
     <asp:Button ID="btnCadastra" CssClass="btn btn-primary" runat="server" Text="Cadastrar" OnClick="btnCadastra_Click" Width="126px" />
-    <br />
+    <br /> <br />
+    <div class="row">
+     <div class="col">
+        <asp:ImageButton ID="btnVoltar" runat="server" ImageUrl="~/img/back.png" OnClick="btnVoltar_Click" />
+     </div>
+        <div class="col">
+           <asp:ImageButton ID="btnItem" runat="server" ImageUrl="~/img/add-item.png" OnClick="btnItem_Click" />
+            <br />
+            Add Item</div>
+    </div>
     <asp:Label ID="lblmsg" runat="server" ForeColor="Red"></asp:Label>
 </asp:Content>

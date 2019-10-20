@@ -24,5 +24,7 @@
     <asp:Button ID="btnCadastra" CssClass="btn btn-primary" runat="server" Text="Cadastrar" OnClick="btnCadastra_Click" Width="126px" />
  </div>
      <br />
+    <asp:ImageButton ID="btnVoltar" runat="server" ImageUrl="~/img/back.png" OnClick="btnVoltar_Click" />
+     <br />
     <asp:Label ID="lblmsg" runat="server" ForeColor="Red"></asp:Label>
 </asp:Content>

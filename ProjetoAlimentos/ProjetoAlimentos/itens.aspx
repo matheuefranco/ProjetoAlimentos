@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<h1> Cadastro de Itens </h1>
+    <h1> Cadastro de Itens </h1>
 <br />
  <div class="form-group">
    <label for="ddlProd">Produto </label>
@@ -17,6 +17,15 @@
     <asp:Button ID="btnCadastra" CssClass="btn btn-primary" runat="server" Text="Cadastrar" OnClick="btnCadastra_Click" Width="126px" />
  </div>
      <br />
+     <div class="row">
+     <div class="col">
+        <asp:ImageButton ID="btnVoltar" runat="server" ImageUrl="~/img/back.png" OnClick="btnVoltar_Click" />
+     </div>
+        <div class="col">
+           <asp:ImageButton ID="btnConsumo" runat="server" ImageUrl="~/img/add-item.png" OnClick="btnConsumo_Click" />
+            <br />
+            Add Consumo</div>
+    </div>
     <asp:Label ID="lblmsg" runat="server" ForeColor="Red"></asp:Label>
 
 </asp:Content>

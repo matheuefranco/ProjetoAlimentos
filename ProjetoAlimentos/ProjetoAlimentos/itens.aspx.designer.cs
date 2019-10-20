@@ -49,6 +49,24 @@ namespace ProjetoAlimentos {
         protected global::System.Web.UI.WebControls.Button btnCadastra;
         
         /// <summary>
+        /// btnVoltar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton btnVoltar;
+        
+        /// <summary>
+        /// btnConsumo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton btnConsumo;
+        
+        /// <summary>
         /// lblmsg control.
         /// </summary>
         /// <remarks>

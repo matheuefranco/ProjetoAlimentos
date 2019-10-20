@@ -9,10 +9,13 @@ namespace ProjetoAlimentos
 {
     public partial class produtos : System.Web.UI.Page
     {
+        string prevPage = "dashboard.aspx";
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["login"] == null)
+            if (Session["login"] == null) { 
                 Response.Redirect("default.aspx");
+                ViewState["PageAnterior"] = Request.UrlReferrer.ToString();
+            }
         }
 
         protected void btnCadastra_Click(object sender, EventArgs e)
@@ -30,6 +33,19 @@ namespace ProjetoAlimentos
             }
             else
                lblmsg.Text = con.mensagem;
+        }
+
+        protected void btnVoltar_Click(object sender, ImageClickEventArgs e)
+        {
+            if(ViewState["PageAnterior"]!=null)
+               Response.Redirect(ViewState["PageAnterior"].ToString());
+            else
+                Response.Redirect("dashboard.aspx");
+        }
+
+        protected void btnItem_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("itens.aspx");
         }
     }
 }

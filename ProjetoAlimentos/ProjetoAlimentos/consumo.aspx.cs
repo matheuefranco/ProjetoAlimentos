@@ -21,7 +21,9 @@ namespace ProjetoAlimentos
                 ddlProd.DataBind(); // popula o dropdownList
                 lblmsg.Text = con.mensagem;
                 listaItens();
+                ViewState["PageAnterior"] = Request.UrlReferrer.ToString();
             }// fim if
+
         }
 
         void listaItens()
@@ -58,6 +60,11 @@ namespace ProjetoAlimentos
         protected void ddlProd_SelectedIndexChanged(object sender, EventArgs e)
         {
             listaItens();
+        }
+
+        protected void btnVoltar_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect(ViewState["PageAnterior"].ToString());
         }
     }
 }
