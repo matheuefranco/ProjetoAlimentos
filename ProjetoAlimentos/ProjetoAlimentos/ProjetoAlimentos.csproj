@@ -144,6 +144,7 @@
     <Content Include="img\product_add.png" />
     <Content Include="img\vidraria-icon.png" />
     <Content Include="itens.aspx" />
+    <Content Include="listaprod.aspx" />
     <Content Include="obj\Debug\ProjetoAlimentos.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\ProjetoAlimentos.dll" />
     <Content Include="obj\Debug\ProjetoAlimentos.pdb" />
@@ -183,6 +184,13 @@
     </Compile>
     <Compile Include="itens.aspx.designer.cs">
       <DependentUpon>itens.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listaprod.aspx.cs">
+      <DependentUpon>listaprod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listaprod.aspx.designer.cs">
+      <DependentUpon>listaprod.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

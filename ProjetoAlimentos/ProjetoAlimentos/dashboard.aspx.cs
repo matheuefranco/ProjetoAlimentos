@@ -30,7 +30,7 @@ namespace ProjetoAlimentos
 
         protected void btnConsumo_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("consumo.aspx");
+            Response.Redirect("listaprod.aspx");
         }
     }
 }
