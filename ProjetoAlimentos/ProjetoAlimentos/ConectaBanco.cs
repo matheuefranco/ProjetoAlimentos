@@ -172,6 +172,34 @@ namespace ProjetoAlimentos
                 conexao.Close();
             }
         }
-        //--------- fim insere_itens ---------------
+        //--------- fim insere_consumo ---------------
+        public bool updateProduto(int idprod, string descricao,
+                                  double densidade, int tipo)
+        {
+            MySqlCommand cmd = new MySqlCommand("update_prod", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("desc_prod", descricao);
+            cmd.Parameters.AddWithValue("tipo", tipo);
+            cmd.Parameters.AddWithValue("idprod", idprod);
+            cmd.Parameters.AddWithValue("densidade", densidade);
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery();
+                //mensagem = "Dados inseridos com sucesso";
+                return true;
+            }
+            catch (MySqlException erro)
+            {
+                mensagem = "Erro Mysql " + erro.Message;
+                return false;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
+        //--------- fim insere_consumo ---------------
+
     }
 }
