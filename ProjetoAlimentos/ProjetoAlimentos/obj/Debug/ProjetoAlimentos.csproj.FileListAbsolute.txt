@@ -49,7 +49,6 @@ C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csprojAssemblyReference.cache
-C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csproj.CoreCompileInputs.cache
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csproj.CopyComplete
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.dll
 C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.pdb
