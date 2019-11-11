@@ -12,10 +12,17 @@ namespace ProjetoAlimentos
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["id_prod"] == null)
+                Response.Redirect("listaprod.aspx");
+
             if (!Page.IsPostBack)
             {
                 ConectaBanco con = new ConectaBanco();
-                
+                int id =Convert.ToInt32(Session["id_prod"]);
+                lblProd.Text =Convert.ToString(Session["nome_prod"]);
+                gvItens.DataSource = con.listaItensIdProd(id);
+                gvItens.DataBind();
+                lblmsg.Text = con.mensagem;
             }
         }
     }

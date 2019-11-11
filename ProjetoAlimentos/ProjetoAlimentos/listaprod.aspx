@@ -6,14 +6,14 @@
         LISTAGEM DE PRODUTOS</h1>
    <div style="text-align:center" class="table-responsive">      
 
-        <asp:GridView ID="gvdados" CssClass="table table-striped" runat="server" AutoGenerateColumns="False" AutoGenerateEditButton="True" AutoGenerateSelectButton="True" OnRowCancelingEdit="gvdados_RowCancelingEdit" OnRowEditing="gvdados_RowEditing" DataKeyNames="idprodutos" OnRowUpdating="gvdados_RowUpdating">
+        <asp:GridView ID="gvdados" CssClass="table table-striped" runat="server" AutoGenerateColumns="False" AutoGenerateEditButton="True" AutoGenerateSelectButton="True" OnRowCancelingEdit="gvdados_RowCancelingEdit" OnRowEditing="gvdados_RowEditing" DataKeyNames="idprodutos" OnRowUpdating="gvdados_RowUpdating" OnSelectedIndexChanged="gvdados_SelectedIndexChanged" OnSelectedIndexChanging="gvdados_SelectedIndexChanging">
             <Columns>
                 <asp:TemplateField HeaderText="Descrição">
                     <EditItemTemplate>
                         <asp:TextBox ID="txtprod" runat="server" Text='<%# Bind("desc_prod") %>'></asp:TextBox>
                     </EditItemTemplate>
                     <ItemTemplate>
-                        <asp:Label ID="Label2" runat="server" Text='<%# Bind("desc_prod") %>'></asp:Label>
+                        <asp:Label ID="lblprod" runat="server" Text='<%# Bind("desc_prod") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Tipo">

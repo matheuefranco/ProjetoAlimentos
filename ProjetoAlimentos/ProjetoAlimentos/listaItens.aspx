@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<h1>LISTAGEM DE ITENS</h1>
+    <h1>LISTAGEM DE ITENS</h1>
     <p class="text-center">Produto:
         <asp:Label ID="lblProd" runat="server" Font-Bold="True" ForeColor="#0000CC"></asp:Label>
     </p>
@@ -10,10 +10,12 @@
         <asp:GridView ID="gvItens" CssClass="table table-striped" runat="server" AutoGenerateColumns="False">
             <Columns>
                 <asp:BoundField DataField="descricao_itens" HeaderText="Descrição" />
-                <asp:BoundField DataField="massa" HeaderText="Massa" />
+                <asp:BoundField DataField="massa" HeaderText="Massa Inicial" />
                 <asp:BoundField DataField="massa_restante" HeaderText="Massa Restante" />
                 <asp:BoundField DataField="data" HeaderText="Data Cadastro" />
             </Columns>
         </asp:GridView>
+        <br />
+        <asp:Label ID="lblmsg" runat="server" ForeColor="#FF3300"></asp:Label>
     </div>
 </asp:Content>

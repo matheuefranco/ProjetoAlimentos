@@ -55,5 +55,18 @@ namespace ProjetoAlimentos
             gvdados.EditIndex = -1;
             preencheGrid();
         }
+
+        protected void gvdados_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        {
+            Session["id_prod"] = gvdados.DataKeys[e.NewSelectedIndex].Value.ToString();
+            Session["nome_prod"] =
+                ( (Label) gvdados.Rows[e.NewSelectedIndex].FindControl("lblprod") ).Text;
+            Response.Redirect("listaItens.aspx");
+        }
+
+        protected void gvdados_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
