@@ -1,0 +1,115 @@
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\ProjetoAlimentos.dll.config
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\ProjetoAlimentos.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\ProjetoAlimentos.pdb
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csc.exe
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csc.exe.config
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csc.rsp
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csi.exe
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csi.exe.config
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csi.rsp
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.AppContext.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Console.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.Compression.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.Pipes.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Claims.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.ValueTuple.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\vbc.exe
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\vbc.exe.config
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\vbc.rsp
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\VBCSCompiler.exe
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csprojAssemblyReference.cache
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csproj.CopyComplete
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.dll
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.pdb
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Google.Protobuf.xml
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\MySql.Data.xml
+C:\Users\mefma\OneDrive\Documentos\Visual Studio 2019\Projects\ProjetoAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Renci.SshNet.xml
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\ProjetoAlimentos.dll.config
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\ProjetoAlimentos.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\ProjetoAlimentos.pdb
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csc.exe
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csc.exe.config
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csc.rsp
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csi.exe
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csi.exe.config
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\csi.rsp
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.AppContext.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Console.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Claims.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\vbc.exe
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\vbc.exe.config
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\vbc.rsp
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Google.Protobuf.xml
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\MySql.Data.xml
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Renci.SshNet.xml
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csprojAssemblyReference.cache
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csproj.CoreCompileInputs.cache
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.csproj.CopyComplete
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.dll
+C:\Users\Carine Silveira\Desktop\ProjAlimentos\ProjetoAlimentos\ProjetoAlimentos\obj\Debug\ProjetoAlimentos.pdb

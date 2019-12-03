@@ -1,0 +1,16 @@
+﻿body {
+}
+
+img.avatar {
+    width: 15%;
+    border-radius:50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+footer{
+    margin-top:20px;
+}
+
